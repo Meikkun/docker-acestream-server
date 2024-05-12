@@ -45,7 +45,7 @@ $ sudo docker build -t "acestream-ubuntu:v3.2.3" .
 ```sh
 $ docker run -d \
         --volume  ./config/acestream.conf:/acestream.conf \
-		-p 6878:6878 \
+        -p 6878:6878 \
         --name acestream \
                 acestream-ubuntu:v3.2.3
 ```
@@ -54,8 +54,8 @@ On Linux systems it is recommended to bind the cache to a temporary mount to avo
 ```sh
 $ docker run -d \
         --volume  ./config/acestream.conf:/acestream.conf \
-		--tmpfs "/root/.ACEStream:noexec,rw,size=4096m" \
-		-p 6878:6878 \
+        --tmpfs "/root/.ACEStream:noexec,rw,size=4096m" \
+        -p 6878:6878 \
         --name acestream \
                 acestream-ubuntu:v3.2.3
 ```
