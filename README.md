@@ -97,7 +97,7 @@ Then run acestream without any port by linking the network:
 ```sh
 $ docker run -d \
         --volume  ./config/acestream.conf:/acestream.conf \
-		--network=container:openvpn \
+        --network=container:openvpn \
         --name acestream \
                 acestream-ubuntu:v3.2.3
 ```
