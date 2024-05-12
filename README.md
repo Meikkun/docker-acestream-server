@@ -11,8 +11,11 @@ An [Ace Stream](http://www.acestream.org/) server Docker image.
 ## Introduction
 
 This is based on previous work:
+
 https://github.com/magnetikonline/docker-acestream-server
+
 https://github.com/RonZ-dev/docker-acestream-server
+
 
 Both built based on Debian images, but acestream isn't updating Debian binaries since 2 years ago.
 This new image is based on Ubuntu 22.04 to be able to run latest Ubuntu x64 python3 acestream version (currently 3.2.3).
