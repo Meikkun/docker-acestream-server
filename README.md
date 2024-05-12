@@ -22,10 +22,6 @@ This new image is based on Ubuntu 22.04 to be able to run latest Ubuntu x64 pyth
 What this provides:
 
 - Dockerized Ace Stream server (version `3.2.3`) running on docker container `phusion/baseimage` (minimal Ubuntu 22.04)
-- Dockerized web server which provides acces to python playback script [`playstream.py`](playstream.py) instructing server to:
-	- Commence streaming of a given program ID.
-
-Since a single HTTP endpoint exposed from the Docker container controls the server _and_ provides the output stream, this provides one of the easier methods for playback of Ace Streams on traditionally unsupported operating systems such as macOS.
 
 ## Building
 
